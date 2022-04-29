@@ -1,7 +1,7 @@
 name: AWS-BeanStalk-Pipeline
 
 env:
-  APP_S3_BUCKET_NAME: elasticbeanstalk-us-east-1-873440472870
+  APP_S3_BUCKET_NAME: "elasticbeanstalk-us-east-1-873440472870"
   APP_NAME : "My First CI CD" # YOUR BENSTALK APP NAME
   ENV_NAME: "Myfirstcicd-env" # YOUR BENSTALK APP ENV NAME
   DEPLOY_PKG_NAME: "github-action-test-flask-app_${{ github.sha }}.zip"
